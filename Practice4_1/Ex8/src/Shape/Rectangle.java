@@ -1,3 +1,5 @@
+package Shape;
+
 public class Rectangle extends Shape{
     protected double width;
     protected double length;
@@ -26,7 +28,7 @@ public class Rectangle extends Shape{
     }
 
     public String toString() {
-        return "Rectangle { \n" +
+        return "Shape.Rectangle { \n" +
                 "   Width: " + width + "\n" +
                 "   Length: " + length + "\n" +
                 "   Color: " + color + "\n" +

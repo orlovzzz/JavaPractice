@@ -1,3 +1,5 @@
+package Shape;
+
 public class Circle extends Shape{
     protected double radius;
 
@@ -28,7 +30,7 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle { \n" +
+        return "Shape.Circle { \n" +
                 "   Radius: " + radius +
                 "\n" +
                 "   Color: " + color + "\n" +

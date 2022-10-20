@@ -1,3 +1,5 @@
+package Shape;
+
 public class Square extends Rectangle{
 
     Square() {}
@@ -25,7 +27,7 @@ public class Square extends Rectangle{
 
     @Override
     public String toString() {
-        return "Rectangle { \n" +
+        return "Shape.Rectangle { \n" +
                 "   Side: " + width + "\n" +
                 "   Color: " + color + "\n" +
                 "   Filled: " + filled + "\n}";
