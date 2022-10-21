@@ -1,19 +1,23 @@
-public abstract class Shape {
-    protected String color;
+package Shape_;
+
+import java.awt.*;
+
+public abstract class Shape1 {
+    protected Color color;
     protected boolean filled;
 
-    Shape() {}
+    Shape1() {}
 
-    Shape(String color, boolean filled) {
+    Shape1(Color color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
@@ -29,4 +33,3 @@ public abstract class Shape {
     public abstract double getPerimeter();
     public abstract String toString();
 }
-
